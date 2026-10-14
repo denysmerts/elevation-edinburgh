@@ -1,0 +1,4 @@
+#!/bin/sh
+# Runs ESLint + Prettier on staged files only; blocks the commit on failure.
+# Configured via "prepare": git config core.hooksPath .githooks
+npx lint-staged
